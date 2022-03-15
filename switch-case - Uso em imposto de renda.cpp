@@ -15,7 +15,6 @@ int main(){
     cin>>  opcao;
     cout<<("Agora informe o valor exato do seu salario")<<endl;
     cin>> salario;
-    calculaimpostoderenda(opcao,salario);
     cout<<("Salario com Desconto do Imposto de Renda: R$")<<calculaimpostoderenda(opcao,salario)<<endl;
 
     return 0;
