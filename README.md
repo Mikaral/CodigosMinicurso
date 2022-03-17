@@ -1,9 +1,10 @@
 # CodigosMinicurso
 Códigos apresentados no minicurso de C++
 
-# Variáveis:
+# Conteúdo do Curso
 ## Introdução
 * Tipos de dados
+* Variaveis
 * Trabalhando com números
 * Trabalhando com strings
 * Obtendo entradas do usuário
