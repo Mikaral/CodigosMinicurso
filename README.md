@@ -1,7 +1,7 @@
 # CodigosMinicurso
 Códigos apresentados no minicurso de C++
 
-#Variáveis:
+# Variáveis:
   Introdução
   Tipos de dados
   Trabalhando com números
