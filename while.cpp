@@ -10,7 +10,7 @@ float calculadora_basica(float,float);
 int main(){
     setlocale(LC_ALL,"Portuguese");
     float valor1,valor2;
-    cout<<("Neste Programa serÃ¡ aplicado o uso do laÃ§o While para a implementaÃ§Ã£o de uma calculadora")<<endl;
+    cout<<("Neste Programa será aplicado o uso do laço While para a implementação de uma calculadora")<<endl;
     cout<<("A calculadora PELS/IAS calcula indefinidamente a soma de valores\nInsira ao menos 2 valores para soma:\n");
     cout<<("valor 1:")<<endl;
     cin>>valor1;
