@@ -9,7 +9,6 @@ using namespace std;
 int gerador_de_numero(int,int);
 int main(){
     int valora,valorb,hipotese,numero_aleatorio, aleatorio,intervalo;
-    srand(time(0));
     int n = 1; //numero de tentativas
     setlocale(LC_ALL,"Portuguese");
     cout<<("Este é um jogo de adivinhações, o jogador que conseguir acertar o número que eu penso primeiro irá vencer!")<<endl
@@ -20,7 +19,6 @@ int main(){
     numero_aleatorio = gerador_de_numero(valora,valorb);
     cout<<("ótimo!, já pensei em um número. Agora, qual número eu pensei?")<<numero_aleatorio<<endl;
     while(hipotese != numero_aleatorio){
-
         cin>>hipotese;
         if(numero_aleatorio == hipotese){
             cout<<("Parabéns, você acertou em ")<<n<<(" tentativas!!")<<endl;
@@ -34,7 +32,7 @@ int main(){
              n+=1;
         }
     }
-    
+    return 0;
 }
 
 int gerador_de_numero(int valora,int valorb){
