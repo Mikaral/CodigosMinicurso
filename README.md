@@ -33,5 +33,4 @@ Códigos apresentados no minicurso de C++
 * Arrays 2D (Matrizes)
 * String como arrays de Char
 * Loops aninhados
-* Exemplo: Operação fatorial da calculadora
 * Apontadores
