@@ -12,9 +12,9 @@ int main(){
     int escolha,tempo;
 
     cout<<("\t####Bem vindo a Calculadora de Juros Simples e Composto#####")<<endl;
-    cout<<("Escolha uma das oções abaixo: \n1- Juro Simples\n2-Juros Compostos")<<endl;
+    cout<<("Escolha uma das opções abaixo: \n1- Juro Simples\n2-Juros Compostos")<<endl;
     cin>>escolha;
-    if(escolha == 1){
+    if(escolha == 1) {
         cout<<("Para o calculo de juros simples é necessário que você informe os seguintes atributos:")<<endl;
         cout<<("1- Taxa de Juros mensal:")<<endl;
         cin>>taxa_de_juros;
@@ -28,8 +28,7 @@ int main(){
         cout<<("Aportando a Juros Simples R$")<<capital<<(" com uma taxa de juros de ")<<taxa_de_juros<<(" por ")<<tempo<<(" meses, teremos: R$")
             <<montante<<(" no término do emprestimo.")<<endl;
         cout<<("Portanto, houve um acrescimo por juros de: R$")<<juros<<endl;
-    }
-    else{
+    } else{
         cout<<("Para o calculo de juros compostos é necessário que você informe os seguintes atributos:")<<endl;
         cout<<("1- Taxa de Juros Anual:")<<endl;
         cin>>taxa_de_juros;
